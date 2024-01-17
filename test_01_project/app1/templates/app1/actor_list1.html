@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'app1/css/a.css' %}">
+</head>
+<body>
+<h1>Actor list are there from app1 </h1>
+{% for i in a%}
+<h2>{{i.Name}}</h2>
+<p>{{i.details}}</p>
+{% endfor %}
+</body>
+</html>

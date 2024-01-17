@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>villian list</h1>
+
+{% for i in v%}
+<h2>{{i.Name}}</h2>
+<p>{{i.details}}</p>
+{% endfor %}
+
+<button>villain form</button>
+ <div>
+     <a href="{% url 'data_post' %}" > </a>
+
+ </div>
+</body>
+
+</html>
